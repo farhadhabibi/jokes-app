@@ -1,0 +1,42 @@
+.DadJokes {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+}
+.DadJokes-left-section {
+    /* display: grid; */
+    background-color: purple;
+    box-shadow: 0px 0px 10px purple;
+    z-index: 2;
+    height: 80vh;
+}
+.DadJokes-right-section {
+    background-color: palegoldenrod;
+    height: 90%;
+    align-self: center;
+    overflow: scroll;
+    box-shadow: 0px 0px 10px palegoldenrod;
+}
+.DadJokes-title {
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 3.7rem;
+    letter-spacing: 0.4rem;
+}
+.fa-laugh {
+    color: purple;
+}
+.loading {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+     text-align: center;
+}
